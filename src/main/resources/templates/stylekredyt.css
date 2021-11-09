@@ -1,0 +1,18 @@
+body{
+    background-color: #bfbfbf;
+    text-align: center;
+}
+h1{
+    animation-duration: 3000ms;
+       animation-name: blink;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+}
+@keyframes blink {
+    20%{color: pink;}
+    40%{color: blue;}
+    60%{color: red;}
+    80%{color:green;}
+    100%{color: black;}
+
+}
